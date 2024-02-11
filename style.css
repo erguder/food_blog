@@ -31,10 +31,10 @@ header{
   font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  font-size: 4em;
+  font-size: 3rem;
   width: 6em;
   position: relative;
-  left: 7.5em;
+  left: 40%;
   text-shadow: 0 0 20px #CD8D7A;
 }
 
@@ -351,8 +351,38 @@ footer {
     0 16px 10px -3px #CD8D7A;
   }
 
-
   .cards img{
     height: 300px;
     object-fit: cover;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .modal-content {
+    position: relative;
+    margin: 5% auto;
+    padding: 20px;
+    background-color: #fefefe;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+
+  #recipeDetails{
+    width: 60%;
+    position: relative;
+    left: 20%;
+  }
+  #recipeDetails img{
+    width: 100%;
   }

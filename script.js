@@ -6,7 +6,7 @@ function loadRecipes() {
     .then(data => {
     foodArray = data.foodArray;
 
-        makeCards(); //Call this here to make sure all the data is called before
+        makeCards();
     })
     .catch(error => {
         console.error('Error loading recipes:', error);
@@ -42,6 +42,35 @@ function makeCards() {
                         </div>
                 `;
 
+                card.addEventListener('click', function () {
+                    displayRecipeDetails(item);
+                  });
+
         cardBox.appendChild(card);
     });
 }
+
+function displayRecipeDetails(item) {
+    const modal = document.getElementById('recipeModal');
+    const detailsContainer = document.getElementById('recipeDetails');
+
+    detailsContainer.innerHTML = '';
+
+    const detailsHTML = `
+      <img src="images/${item.image}" alt="${item.name}">
+      <h2>${item.name}</h2>
+      <p><strong>Origin:</strong> ${item.origin}</p>
+      <p><strong>Ingredients:</strong> ${item.ingredients}</p>
+      <p><strong>Recipe:</strong> ${item.recipe}</p>
+      <p><strong>Category:</strong> ${item.category}</p>
+    `;
+
+    detailsContainer.innerHTML = detailsHTML;
+
+    modal.style.display = 'block';
+  }
+
+  function closeModal() {
+    const modal = document.getElementById('recipeModal');
+    modal.style.display = 'none';
+  }
