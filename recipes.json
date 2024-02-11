@@ -1,0 +1,146 @@
+{"foodArray" : [
+    {
+    "name": "Tomato Basil Soup",
+    "image": "tomato_basil_soup.jpeg",
+    "ingredients": "Tomatoes, basil, garlic, onion, vegetable broth, salt, pepper",
+    "recipe": "1. Saute onions and garlic. 2. Add tomatoes and broth. 3. Simmer and blend. 4. Add basil, salt, and pepper.",
+    "origin": "Italian",
+    "category": "Soup"
+    },
+    {
+    "name": "Spinach Artichoke Dip",
+    "image": "spinach_artichoke_dip.jpeg",
+    "ingredients": "Spinach, artichokes, cream cheese, sour cream, garlic, parmesan cheese",
+    "recipe": "1. Mix all ingredients. 2. Bake until bubbly. 3. Serve with chips or bread.",
+    "origin": "American",
+    "category": "Appetizer"
+    },
+    {
+    "name": "Chicken Alfredo Pasta",
+    "image": "chicken_alfredo_pasta.jpeg",
+    "ingredients": "Chicken, fettuccine pasta, Alfredo sauce, garlic, butter, Parmesan cheese",
+    "recipe": "1. Cook pasta and chicken. 2. Make Alfredo sauce. 3. Combine and garnish with Parmesan.",
+    "origin": "Italian",
+    "category": "Main Dish"
+    },
+    {
+    "name": "Garlic Roasted Brussels Sprouts",
+    "image": "roasted_brussels_sprouts.jpeg",
+    "ingredients": "Brussels sprouts, garlic, olive oil, salt, pepper",
+    "recipe": "1. Toss Brussels sprouts with garlic and oil. 2. Roast until crispy. 3. Season with salt and pepper.",
+    "origin": "European",
+    "category": "Side Dish"
+    },
+    {
+    "name": "Chocolate Lava Cake",
+    "image": "chocolate_lava_cake.jpeg",
+    "ingredients": "Chocolate, butter, sugar, eggs, flour",
+    "recipe": "1. Melt chocolate and butter. 2. Mix with sugar, eggs, and flour. 3. Bake until the center is gooey.",
+    "origin": "French",
+    "category": "Dessert"
+    },
+    {
+    "name": "Mango Smoothie",
+    "image": "mango_smoothie.jpeg",
+    "ingredients": "Mango, yogurt, banana, honey, ice",
+    "recipe": "1. Blend mango, yogurt, banana, and honey. 2. Add ice and blend until smooth.",
+    "origin": "International",
+    "category": "Drink"
+    },
+    {
+    "name": "Butternut Squash Soup",
+    "image": "butternut_squash_soup.jpeg",
+    "ingredients": "Butternut squash, onion, carrot, vegetable broth, cinnamon, nutmeg",
+    "recipe": "1. Roast squash, onion, and carrot. 2. Blend with broth. 3. Season with cinnamon and nutmeg.",
+    "origin": "American",
+    "category": "Soup"
+    },
+    {
+    "name": "Stuffed Mushrooms",
+    "image": "stuffed_mushrooms.jpeg",
+    "ingredients": "Mushrooms, cream cheese, garlic, breadcrumbs, parsley",
+    "recipe": "1. Remove mushroom stems. 2. Mix cream cheese, garlic, and breadcrumbs. 3. Stuff mushrooms and bake.",
+    "origin": "International",
+    "category": "Appetizer"
+    },
+    {
+    "name": "Beef Stir-Fry",
+    "image": "beef_stir_fry.jpeg",
+    "ingredients": "Beef strips, broccoli, bell peppers, soy sauce, ginger, garlic",
+    "recipe": "1. Stir-fry beef. 2. Add veggies and sauce. 3. Cook until beef is browned and veggies are tender.",
+    "origin": "Asian",
+    "category": "Main Dish"
+    },
+    {
+    "name": "Quinoa Salad",
+    "image": "quinoa_salad.jpeg",
+    "ingredients": "Quinoa, cucumber, cherry tomatoes, feta cheese, olive oil, lemon juice",
+    "recipe": "1. Cook quinoa. 2. Mix with veggies, feta, oil, and lemon juice. 3. Chill before serving.",
+    "origin": "Mediterranean",
+    "category": "Side Dish"
+    },
+    {
+    "name": "Tiramisu",
+    "image": "tiramisu.jpeg",
+    "ingredients": "Ladyfingers, coffee, mascarpone cheese, cocoa powder, eggs",
+    "recipe": "1. Dip ladyfingers in coffee. 2. Layer with mascarpone mixture. 3. Dust with cocoa powder.",
+    "origin": "Italian",
+    "category": "Dessert"
+    },
+    {
+    "name": "Pomegranate Mojito",
+    "image": "pomegranate_mojito.jpeg",
+    "ingredients": "White rum, pomegranate juice, mint leaves, lime, soda water",
+    "recipe": "1. Muddle mint and lime. 2. Add rum, pomegranate juice, and ice. 3. Top with soda water.",
+    "origin": "Latin American",
+    "category": "Drink"
+    },
+    {
+    "name": "Creamy Broccoli Cheddar Soup",
+    "image": "broccoli_cheddar_soup.jpeg",
+    "ingredients": "Broccoli, cheddar cheese, onion, milk, chicken broth, butter",
+    "recipe": "1. Saute onions in butter. 2. Add broccoli and broth, simmer until tender. 3. Blend, add cheese and milk.",
+    "origin": "American",
+    "category": "Soup"
+    },
+    {
+    "name": "Caprese Skewers",
+    "image": "caprese_skewers.jpeg",
+    "ingredients": "Cherry tomatoes, mozzarella balls, fresh basil, balsamic glaze",
+    "recipe": "1. Thread tomatoes, mozzarella, and basil onto skewers. 2. Drizzle with balsamic glaze before serving.",
+    "origin": "Italian",
+    "category": "Appetizer"
+    },
+    {
+    "name": "Shrimp Scampi Pasta",
+    "image": "shrimp_scampi_pasta.jpeg",
+    "ingredients": "Shrimp, linguine pasta, garlic, white wine, lemon, parsley",
+    "recipe": "1. Cook pasta. 2. Saute shrimp and garlic, add wine and lemon juice. 3. Toss with cooked pasta.",
+    "origin": "Italian",
+    "category": "Main Dish"
+    },
+    {
+    "name": "Roasted Garlic Mashed Potatoes",
+    "image": "roasted_garlic_mashed_potatoes.jpeg",
+    "ingredients": "Potatoes, roasted garlic, butter, milk, salt, pepper",
+    "recipe": "1. Boil potatoes, mash with roasted garlic, butter, and milk. 2. Season with salt and pepper.",
+    "origin": "International",
+    "category": "Side Dish"
+    },
+    {
+    "name": "Strawberry Shortcake",
+    "image": "strawberry_shortcake.jpeg",
+    "ingredients": "Shortcakes, strawberries, whipped cream",
+    "recipe": "1. Slice strawberries and sweeten. 2. Layer with shortcakes and whipped cream.",
+    "origin": "American",
+    "category": "Dessert"
+    },
+    {
+    "name": "Mint Lemonade",
+    "image": "mint_lemonade.jpeg",
+    "ingredients": "Lemons, sugar, water, mint leaves, ice",
+    "recipe": "1. Squeeze lemons for juice. 2. Mix with sugar and water. 3. Add mint leaves and serve over ice.",
+    "origin": "International",
+    "category": "Drink"
+    }
+]}

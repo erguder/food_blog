@@ -5,78 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Blog</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href=
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5e3efb26e6.js" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet"> 
 </head>
 <body>
-
+  <div id="navbar">
     <div class="navbar">
         <img src="./images/logo.png" alt="" class="logo" />
-        <nav class="links">
-          <a href="Lahmacun.html" class="menu__button">Recipe of the Month</a>
-          <a href="" class="menu__button">All Recipes</a>
-          <a href="" class="menu__button">Search &#128269;</a>
+        <nav class="links navbar-expand-sm">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="links collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link menu__button" href="Lahmacun.html">Recipe of the Month</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu__button" href="#">All Recipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu__button" href="#">Search &#128269;</a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </div>
-
       <nav class="categories">
-        <a href="">Lahmacun</a>
-        <a href="">Soup</a>
-        <a href="">Salad</a>
-        <a href="">Kebap</a>
-        <a href="">Side Dish</a>
-        <a href="">Dessert</a>
-        <a href="">Drink</a>
+        <a class="btnCategory" href="">Soup</a>
+        <a class="btnCategory" href="">Appetizer</a>
+        <a class="btnCategory" href="">Main Dish</a>
+        <a class="btnCategory" href="">Side Dish</a>
+        <a class="btnCategory" href="">Dessert</a>
+        <a class="btnCategory" href="">Drink</a>
       </nav>
+  </div>
+
+  <header class="py-5">
+    <div class="my-5 py-5">
+        <h1 class="welcome">Welcome to my food blog!</h1>
+    </div>
+  </header>
   
-      <div class="container">
-        <div>
-          <img src="./images/image1.webp" alt="" />
-          <p>Soup</p>
-        </div>
-  
-        <div>
-          <img src="./images/image2.webp" alt="" />
-          <p>Lahmacun</p>
-        </div>
-  
-        <div>
-          <img src="./images/image3.jpg" alt="" />
-          <p>Salad</p>
-        </div>
-  
-        <div>
-          <img src="./images/image4.jpg" alt="" />
-          <p>Kebap</p>
-        </div>
-  
-        <div>
-          <img src="./images/image5.jpg" alt="" />
-          <p>Ayran</p>
-        </div>
-  
-        <div>
-          <img src="./images/image6.jpeg" alt="" />
-          <p>Künefe</p>
-        </div>
+    <div class="container">
+      <div class="cards row">
       
-
-      <div>
-        <img src="./images/image7.webp" alt="" />
-        <p>Haydari</p>
-      </div>
-
-      <div>
-        <img src="./images/image8.jpeg" alt="" />
-        <p>Roasted Mushroom</p>
-      </div>
-
-      <div>
-        <img src="./images/image9.webp" alt="" />
-        <p>Cretan Paste</p>
       </div>
     </div>
+
+
       <footer>
         <nav class="links2">
             <a id="noborder" href="" class="menu__button">About</a>
@@ -102,7 +83,11 @@
           </a>
         </div>
     </footer>
-    
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+ 
 </body>
 </html>

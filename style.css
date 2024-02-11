@@ -1,10 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
 }
 
 body{
-    background-color: #DBCC95;
+  min-width: 00px;
+  background-color: #CD8D7A;
 }
 .logo {
     width: 130px;
@@ -12,6 +15,39 @@ body{
     height: fit-content;
 } 
 
+header{
+  box-shadow: 0 0 20px #CD8D7A;
+  width: 86%;
+  margin: 7%;
+  height: 70vh;
+  margin-top: 180px;
+  background-image: url(hero2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome{
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 4em;
+  width: 6em;
+  position: relative;
+  left: 7.5em;
+  text-shadow: 0 0 20px #CD8D7A;
+}
+
+.row{
+  justify-content: center;
+}
+
+#navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
 .navbar {
     position: relative;
     display: flex;
@@ -19,7 +55,7 @@ body{
     align-items: center;
     background-color: #CD8D7A;
     width: 100%;
-    height: 100px;
+    height: 75px;
     z-index: 1;
 }
 
@@ -41,29 +77,24 @@ body{
 
 a {
     text-decoration: none;
+    padding-top: 10px;
 }
 
 .categories {
+    padding-top: 5px; 
     text-decoration: none;
     position: relative;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    text-align: center;
     background-color: #EAECCC;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    font-size: 4vh;
-    font-weight: bold;
-}
-
-.categories a:hover {
-    color:#EAECCC;
+    height: 70px;
 }
 
 .container {
-    display: grid;
-    gap: 30px;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 30px 50px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     background-color: #EAECCC;
 }
@@ -75,8 +106,7 @@ a {
 
 .container div {
     position: relative;
-    margin: 50px;
-
+    margin: 20px;
 }
 
 
@@ -92,6 +122,65 @@ a {
     text-align: center;
     font-weight: bold;
 }
+
+/* card style */
+
+.box {
+  transition: .5s linear;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+  margin: 0 5px;
+  background: transparent;
+}
+
+.box:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(100%);
+}
+
+.box:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-top: 4px solid transparent;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(-100%);
+}
+
+.box:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.box:hover:before {
+  border-color: #262626;
+  height: 100%;
+  transform: translateX(0);
+  transition: .3s transform linear, .3s height linear .3s;
+}
+
+.box:hover:after {
+  border-color: #262626;
+  height: 100%;
+  transform: translateX(0);
+  transition: .3s transform linear, .3s height linear .5s;
+}
+
+/* cards style end */
 
 footer {
     text-align: center;
@@ -121,12 +210,6 @@ footer {
     justify-content: center;
     gap: 50px;
     font-size: 2em;
-}
-
-@media screen and (width < 540px) {
-    .container {
-        grid-template-columns: repeat(1, 1fr);
-    }
 }
 
 .social {
@@ -243,4 +326,33 @@ footer {
     100% {
       background-position: 6px 0, -6px 100%, 0 -6px, 100% 6px;
     }
+  }
+
+
+.btnCategory {
+  width: 130px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #171717;
+  color: #EAECCC;
+  border: none;
+  border-radius: 5px;
+  transition: all .4s;
+  }
+  
+  .btnCategory:hover {
+  border-radius: 5px;
+  transform: translateY(-10px);
+  box-shadow: 0 7px 0 -2px #CD8D7A,
+    0 15px 0 -4px #DBCC95,
+    0 16px 10px -3px #CD8D7A;
+  }
+
+
+  .cards img{
+    height: 300px;
+    object-fit: cover;
   }
