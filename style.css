@@ -59,6 +59,15 @@ header{
     z-index: 1;
 }
 
+.container h1{
+  margin-top: 20px;
+  padding-top: 20px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 0 0 20px #CD8D7A;
+}
 
 .links {
     display: flex;
